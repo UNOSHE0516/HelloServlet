@@ -12,7 +12,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse; 
 @WebServlet("/MySQLServlet") 
-public class MySQLServlet extends HttpServlet { 
+public class MySQLServlet
+ extends HttpServlet { 
 public MySQLServlet() { 
         super(); 
     } 
@@ -74,4 +75,4 @@ userPassword);
      out.println("</body>"); 
      out.println("</html>"); 
  } 
-}
+} 

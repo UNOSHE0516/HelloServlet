@@ -34,8 +34,8 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1"
     <servlet-name>Inquiry</servlet-name> 
     <url-pattern>/HelloServlet/InquiryServlet</url-pattern> 
   </servlet-mapping> 
-  
-   <servlet> 
+ 
+  <servlet> 
     <servlet-name>Test</servlet-name> 
     <servlet-class>TestServlet</servlet-class> 
   </servlet> 
@@ -43,7 +43,6 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1"
     <servlet-name>Test</servlet-name> 
     <url-pattern>/HelloServlet/TestServlet</url-pattern> 
   </servlet-mapping> 
-   
  
   <servlet> 
       <servlet-name>MySQL</servlet-name> 
