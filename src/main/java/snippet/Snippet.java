@@ -9,7 +9,6 @@ public class Snippet {
 	String password = ""; 
 	public void select(String name,String password) {
 		DBConnector db = new DBConnector(); 
-	
 		Connection con = db.getConnection(); 
 		String sql ="select * from test_table where user_name=? and password=?"; 
 		try { 
